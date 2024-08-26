@@ -39,5 +39,3 @@ To interpret the model, **SVM coefficients** were used to identify the most impo
 ## Conclusion
 
 This project demonstrates that functional connectivity patterns in the brain can be used to predict gender with moderate accuracy. However, the model shows limitations in accurately predicting female subjects, as reflected by the low precision for that class.
-
-Further investigation into the role of the amygdala and potential refinements in handling class imbalance could help improve model performance.
