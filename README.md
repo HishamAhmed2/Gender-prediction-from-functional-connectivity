@@ -28,13 +28,13 @@ The goal was to build a **Support Vector Machine (SVM)** model, to test whether 
 
 - **Accuracy**: The SVM model achieved **68% accuracy** on the test data.
 
-The model showed a significant discrepancy between precision and recall for predicting female subjects. The model was able to **identify female subjects** (higher recall: 0.67) but struggled to **predict them correctly** (lower precision: 0.33). Conversely, predictions for male subjects showed both high precision and recall (0.90 - 0.68). Permutation tests confirmed that gender prediction was reliable ( p<.05)
+The model showed a significant discrepancy between precision and recall for predicting female subjects. The model was able to **identify female subjects** (higher recall: 0.67) but struggled to **predict them correctly** (lower precision: 0.33). Conversely, predictions for male subjects showed both high precision and recall (0.90 - 0.68). Permutation tests confirmed that gender prediction was reliable ( p<0.05)
 
 ### Feature Importance
 
 To interpret the model, **SVM coefficients** were used to identify the most important functional connections that contributed to the gender prediction. The analysis revealed the following key findings:
 
-- **fronto‐parietal and sensorimotor networks** were among the most important regions, which aligns with findings in the literature regarding gender differences in brain structure and function (zhang 2018).
+- **fronto‐parietal and sensorimotor networks** were among the most important regions (zhang 2018).
 
 ## Conclusion
 
