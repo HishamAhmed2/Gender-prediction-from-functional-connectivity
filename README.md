@@ -23,6 +23,7 @@ The goal was to build a **Support Vector Machine (SVM)** model, to test whether 
 
 - **Algorithm**: Support Vector Machine (SVM)
 - **Features**: Functional connectivity between pairs of ROIs
+- **Data scaling**: Unscaled data was used as it showed higher accuracy 
 
 ### Results
 
