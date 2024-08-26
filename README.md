@@ -2,14 +2,13 @@
 
 ## Project Overview
 
-This project aims to predict the gender of subjects using functional connectivity patterns derived from resting-state fMRI data. The project uses the **ABIDE dataset**, which contains previously collected resting-state functional magnetic resonance imaging (rs-fMRI) data. Only control subjects were included in this analysis. The study leverages the **AAL (Automated Anatomical Labeling)** atlas to define 116 regions of interest (ROIs) in the brain.
+This project aims to predict the gender of subjects using functional connectivity patterns derived from resting-state fMRI data. The project uses the **ABIDE dataset**, which contains collected resting-state functional magnetic resonance imaging (rs-fMRI) data. Only control subjects were included in this analysis. The project use the **AAL (Automated Anatomical Labeling)** atlas to define 116 regions of interest (ROIs) in the brain.
 
-The goal was to use machine learning methods, specifically a **Support Vector Machine (SVM)**, to predict the gender of subjects based on the functional connectivity between these regions. A total of **468 subjects** were included in the analysis.
+The goal was to build a **Support Vector Machine (SVM)** model, to test whether rfMRI functional connectivity (FC) can be used to predict gender and identify FC features that are most predictive of gender. A total of **468 subjects** were included in the analysis.
 
 ## Dataset
 
 - **Dataset**: ABIDE (Autism Brain Imaging Data Exchange) dataset
-- **Subjects**: Control subjects only
 - **Number of subjects**: 468
 - **Type of data**: Resting-state fMRI
 - **Atlas**: AAL (Automated Anatomical Labeling) atlas with 116 regions of interest (ROIs)
@@ -24,14 +23,12 @@ The goal was to use machine learning methods, specifically a **Support Vector Ma
 
 - **Algorithm**: Support Vector Machine (SVM)
 - **Features**: Functional connectivity between pairs of ROIs
-- **Metric**: Accuracy, Precision, and Recall
 
 ### Results
 
 - **Accuracy**: The SVM model achieved **68% accuracy** on the test data.
 
-The model showed a significant discrepancy between precision and recall for predicting female subjects. The model was able to **identify female subjects** (higher recall: 0.67) but struggled to **predict them correctly** (lower precision: 0.33). Conversely, predictions for male subjects showed both high precision and recall 
-(0.90 - 0.68).
+The model showed a significant discrepancy between precision and recall for predicting female subjects. The model was able to **identify female subjects** (higher recall: 0.67) but struggled to **predict them correctly** (lower precision: 0.33). Conversely, predictions for male subjects showed both high precision and recall (0.90 - 0.68). Permutation tests confirmed that gender prediction was reliable ( p<.05)
 
 ### Feature Importance
 
