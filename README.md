@@ -35,7 +35,7 @@ The model showed a significant discrepancy between precision and recall for pred
 
 To interpret the model, **SVM coefficients** were used to identify the most important functional connections that contributed to the gender prediction. The analysis revealed the following key findings:
 
-- **fronto‐parietal and sensorimotor networks** were among the most important regions (zhang 2018).
+- **fronto‐parietal and sensorimotor networks** were among the most important regions, which aligns with findings in the literature (zhang 2018).
 
 ## Conclusion
 
